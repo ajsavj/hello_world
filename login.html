@@ -1,0 +1,192 @@
+<html>                                                                                                                                                                     <html>
+    <head>
+        <meta charset="utf-8" />
+		
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>AMPICS</title>
+    </head>
+    <body>
+        
+		
+	
+	<style>
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+.sidenav {
+    height: 150%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 18px 18px 18px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #818181;
+    display: block;
+    transition: 0.9s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 36px !important;
+    margin-left: 100px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="login.html">Login </a>
+  <a href="#">About Developers</a>		
+  <a href="#">Contact Developers </a>	<br><br><br><br><br><br><br><br><br><br>
+  <center><img src="AJ_SAVJ.png"></center>
+  
+</div>
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="login.html">Login </a>
+  <a href="#">About Developers</a>		
+  <a href="#">Contact Developers </a>			
+</div>
+
+<div id="main">
+  
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="Status Bar Menu.png" width=99%></span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "600px";
+    document.getElementById("main").style.marginLeft = "600px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+     
+</body>
+
+
+<style>
+	.button {
+	
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 80px 60px;
+    text-align: centre;		
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {background-color: #60A917; width: 48.7%}
+.button2 {background-color: #1BA1E2; width: 48.7%}
+.button3 {background-color: #F0A30A; width: 48.7%}
+.button4 {background-color: #A4C400; width: 48.7%}
+
+
+ padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+</style>
+
+<br><br>
+
+
+<script language="javascript">
+
+function pasuser(form) {
+if (form.id.value=="9429292094") { 
+if (form.pass.value=="ajsavj") {              
+location="RegisterdUser.html" 
+} else {
+alert("Invalid Password")
+}
+} else {  alert("Invalid UserID")
+}
+}
+function rd(form)
+{
+location="cs.html"
+}
+function home(form)
+{
+location="index.html"
+}
+</script>
+
+<center>
+
+<form name="login">
+
+<font size=8> Mobile No. <input name="id" type="text" style="width:500px ; font-size:50px">  <br><br> </font> 
+<font size=8> Password   <input name="pass" type="password" style="width:500px ; font-size:50px"> <br> </font>   <br><br>
+
+<input type="button" class="button button1" value="Login" onClick="pasuser(this.form)"> <input type="button" onclick="rd(this.form)" class="button button2" value="Forgot Password">   <br>
+ <input type="reset" class="button button1" value="Reset">        <input type="button" class="button button4" value="Home" onClick="home(this.form)">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+
+
+<!--<input type="button" class="button button1" value="Login" onClick="pasuser(this.form)">-->
+
+</form></table></center> 
+
+		
+<br><br>
+
+
+
+<div align="center">
+ <hr> <img src="AJ_SAVJ.png"> <hr> <br>
+<i><h1><marquee>Developed By :</marquee>  Jay A. Sedani & Atharva U. Jha </h1></i>	
+</div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>

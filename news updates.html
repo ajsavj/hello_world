@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+<link rel="shortcut icon" href="logo.ico" type="image/x-icon" />      
+	
+	  <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>AMPICS</title>
+		
+
+    </head>
+    
+    <body bgcolor="#A9DDD9">
+		
+	
+	
+	<style>
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+.sidenav {
+    height: 150%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 18px 18px 18px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #818181;
+    display: block;
+    transition: 0.9s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 36px !important;
+    margin-left: 100px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <br><hr><br><br><br><center><img src="AJ_SAVJ.png"></center> <br><br><br><hr><br>
+  <a href="login.html">&nbsp;&nbsp;&nbsp;&nbsp;Login </a>
+  <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;About Developers</a>		
+  <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Contact Developers </a>		
+  
+</div>
+
+<div id="main">
+  
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="Status Bar Menu.png" width=99%></span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "600px";
+    document.getElementById("main").style.marginLeft = "600px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+     
+</body>
+
+	<style>
+	.button {
+	
+	background-color: #008CBA;
+	border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 80px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.button3 {margin: 6px 4px; background-color: #A4C400; width: 48.7%}
+.button4 {background-color: #F0A30A; width: 98.7%}
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+
+<center>
+
+		<img src="GU_AMPICS_logo.png"> <br><br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<form name="redirect">
+
+
+<input type="text" class="button button4" value="There are no news and updates...">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<input type="text" class="button button4" value= "gf">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ <div align=right>
+ <input type="button" class="button button3" value="Go Back" onClick="navigator.app.backHistory()">
+</div>
+<script>
+
+function link2(form)
+{
+location="admission.html"
+}
+
+</script>
+
+</form>
+</center>
+<time datetime = "<%=DateTime.UtcNow.ToString("u")%>" data-format = "hh:mm:ss A"></time>
+</body>
+			
+			
+</center>		
+</center>		
+</center>		
+<br><br>
+
+
+<div align="center">
+ <hr> <img src="AJ_SAVJ.png"> <hr> <br>
+<i><h1><marquee>Developed By :</marquee>  Jay A. Sedani & Atharva U. Jha </h1></i>	
+</div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>

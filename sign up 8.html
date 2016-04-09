@@ -1,0 +1,81 @@
+<html>
+    <head>
+<style>
+.button {
+    background-color: #990033; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {width: 48.7%;}
+.button2 {width: 48.7%}
+
+    padding-left: 0;
+    padding-right: 100%;
+    width: 100%;
+}
+</style>
+     
+
+	 <meta charset="ltf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>AMPICS</title>
+    </head>
+    <body>
+
+	
+	<center>
+	<br><br><br><br>
+<form name="sign up">	
+	<font size=8>Enter Website OR Blog.  &nbsp; <input name="wb" size=25 type="text" style="width:500px ; font-size:50px"></input></font><br>
+	</center>		<br><br><br><br><br><br>
+	<input type="button" class="button button1" value="Skip" onClick="ms(this.form)">&nbsp&nbsp&nbsp&nbsp;<input type="button" class="button button2" value="Next" onClick="feildln(this.form)"><br>
+
+			</form>
+	
+
+	
+	<br><br><br><br><br> <br><br><br><br>
+	
+	<div align="center"><br>
+ <i><h1><marquee>Developed By :</marquee>  Jay A. Sedani & Atharva U. Jha </h1></i>	
+<hr><footer> <p><img src="AJ_SAVJ.png"></p> </footer><hr> <br>
+ </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+			</script>
+			
+<script language="javascript">
+
+function feildln(form) 
+{
+if (form.wb.value.length>=5) 
+{ 
+ location = "sign up 9.html"
+ }
+ else
+ {
+ alert("please enter website properly")
+ }
+ }
+ function ms(form)
+ {
+ location="sign up 9.html"
+ }
+</script>
+			</body>
+</html>

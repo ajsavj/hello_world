@@ -1,0 +1,384 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>AMPICS</title>
+    </head>
+    <body>
+        
+		
+
+	<style>
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+.sidenav {
+    height: 150%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 18px 18px 18px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #818181;
+    display: block;
+    transition: 0.9s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 36px !important;
+    margin-left: 100px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="login.html">Login </a>
+  <a href="#">About Developers</a>		
+  <a href="#">Contact Developers </a>			
+</div>
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="login.html">Login </a>
+  <a href="#">About Developers</a>		
+  <a href="#">Contact Developers </a>			
+</div>
+
+<div id="main">
+  
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="Status Bar Menu.png" width=99%></span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "600px";
+    document.getElementById("main").style.marginLeft = "600px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+     
+</body>
+
+
+<head id="Head1"><title>
+
+</title>
+    <style type="text/css">
+        .mainTbl
+        {
+            margin: 15px 15px 15px 15px;
+            border: Solid 2px #19AA8A;
+        }
+        td
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: left;
+            border: Solid 1px #19AA8A;
+        }
+        .style2
+        {
+            font-size: 30px;
+            color: #BA393E;
+            text-align: center;
+            width: auto;
+        }
+        .HeaderDiv
+        {
+            border-bottom: Solid 2px #BA393E;
+            margin-left: 5px;
+        }
+        .HdrCell
+        {
+            border: Solid 0px;
+            text-align: center;
+        }
+        .style16
+        {
+            color: #000000;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .style18
+        {
+            color: #000033;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .style19
+        {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .style21
+        {
+            color: #003399;
+            font-weight: bold;
+            text-align: center;
+        }
+        .lbl
+        {
+            text-align: center;
+            float: left;
+            width: 100%;
+        }
+        .grd
+        {
+            color: #003399;
+            font-weight: bold;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            border: Solid 2px #19AA8A;
+            text-align: center;
+        }
+        .GrdCell
+        {
+            height: 17px;
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <form name="form1" method="post" action="frmuniresult.aspx" id="form1">
+<div>
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTQzODgyNzU4Ng8WAh4MUHJldmlvdXNQYWdlBSxodHRwOi8vMjAyLjEzMS4xMjYuMjMwOjEwOC9mcm11bmlyZXN1bHQuYXNweBYCAgMPZBYCAgEPZBYCZg9kFgoCAw8PFgIeBFRleHRlZGQCBQ8QDxYGHg1EYXRhVGV4dEZpZWxkBQVBbGlhcx4ORGF0YVZhbHVlRmllbGQFC0luc3RpdHV0ZUlEHgtfIURhdGFCb3VuZGdkEBUZCVNlbGVjdC4uLgowMSAtIFVWUENFDDAyIC0gU0tQQ1BFUgswMyAtIEFNUElDUwowNCAtIFZNUElNCzA1IC0gVk1QQ01TCTA2IC0gTVVJUwgwNyAtIERPRQgwOCAtIERDUwgwOSAtIERTVwgxMCAtIENJQQkxMSAtIENIU1MIMTIgLSBDTVMJMTMgLSBQR0RFCTE1IC0gQ01FQwo1MSAtIEJTUFAxCjUyIC0gQlNQUDIIMTYgLSBJQ1QIMTcgLSBJT1QJMTggLSBJTUVTCzE5IC0gSUxGU0lPCjIwIC0gR0FJU0UIMjEgLSBJT0ELMjIgLSBOU0VDQ00IMjMgLSBJRFMVGQEwATEBMgEzATQBNQE2ATcBOAE5AjEwAjExAjEyAjEzAjE0AjE1AjE2AjE3AjE4AjIwAjIxAjIyAjIzAjI0AjI1FCsDGWdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAWZkAgcPEGQQFQEJU2VsZWN0Li4uFQEBMBQrAwFnFgFmZAIJDxBkZBYAZAIPDw8WAh8BZWRkGAIFCG12UmVzdWx0Dw9kZmQFEHVjbEdyZCRncmRSZXN1bHQPZ2R7KquuW96avnBdm60KEkXCJKSkIQ==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=wucl1XIFuZ3VjA4JLcnnys8L8tEDEMJgmKJjHJSQmNJuFXQ8vdy3_2R2EQRvD0kLxWKRm-LBiQvK4Ig26G_fdO9CqDo1&amp;t=635588822026805809" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=rpsJgqxtDvm_XK8Z2Q9EaBOFBv0FjAX29vL5Wr6UZkapdAZVRe1FdEZONXX_WWlEWhgh5ZRQHN5-38YzTgvIfXm4rHQ1&amp;t=635588822026805809" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="12BA245B" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWIQLRuqqbDQKAhOamBwKQ68zICwKP68zICwKO68zICwKN68zICwKM68zICwKL68zICwKK68zICwKJ68zICwKY68zICwKX68zICwKP64zLCwKP64DLCwKP64TLCwKP67jLCwKP67zLCwKP67DLCwKP67TLCwKP66jLCwKP6+zICwKO64zLCwKO64DLCwKO64TLCwKO67jLCwKO67zLCwKO67DLCwKr9rDQAgK7mZq+DgKTwYGbBQLq67rZCAKln/PuCgKz6aabBz7O1gjKPMEfDTq+nJUhKpyonSFv" />
+</div>
+    <div align="center">
+        
+                <table width="100%" class="HeaderDiv">
+                    <tr>
+                        <td class="HdrCell" style="width: 20%; text-align: left">
+                            <img id="ImgLogo" alt="" src="Images/logo.png" style="height:107px;width:107px;border-width:0px;" />
+                        </td>
+                        <td class="HdrCell" style="width: 60%;">
+                            <span class="style2">GANPAT UNIVERSITY</span>
+                            <p align="center" class="style19">
+                                <span id="lblHdr"></span></p>
+                        </td>
+                        <td class="HdrCell" style="width: 20%;">
+                        </td>
+                    </tr>
+                </table>
+                <table class="mainTbl" width="90%" height="70%" bgcolor="#FFFFFF">
+                    <tr>
+                        <td style="width: 30%">
+                            Institute :
+                        </td>
+                        <td style="width: 70%">
+                            <select name="ddlInst"  onchange="javascript:setTimeout('__doPostBack(\'ddlInst\',\'\')', 0)" id="ddlInst" tabindex="1" title="Select Institute" >
+
+	<option style="width:400px ; font-size:50px" selected="selected" value="0">Select...</option>
+	<option style="width:400px ; font-size:50px" value="1">01 - UVPCE</option>
+	<option style="width:400px ; font-size:50px" value="2">02 - SKPCPER</option>
+	<option style="width:400px ; font-size:50px" value="3">03 - AMPICS</option>
+	<option style="width:400px ; font-size:50px" value="4">04 - VMPIM</option>
+	<option style="width:400px ; font-size:50px" value="5">05 - VMPCMS</option>
+	<option style="width:400px ; font-size:50px" value="6">06 - MUIS</option>
+	<option style="width:400px ; font-size:50px" value="7">07 - DOE</option>
+	<option style="width:400px ; font-size:50px" value="8">08 - DCS</option>
+	<option style="width:400px ; font-size:50px" value="9">09 - DSW</option>
+	<option style="width:400px ; font-size:50px" value="10">10 - CIA</option>
+	<option style="width:400px ; font-size:50px" value="11">11 - CHSS</option>
+	<option style="width:400px ; font-size:50px" value="12">12 - CMS</option>
+	<option style="width:400px ; font-size:50px" value="13">13 - PGDE</option>
+	<option style="width:400px ; font-size:50px" value="14">15 - CMEC</option>
+	<option style="width:400px ; font-size:50px" value="15">51 - BSPP1</option>
+	<option style="width:400px ; font-size:50px" value="16">52 - BSPP2</option>
+	<option style="width:400px ; font-size:50px" value="17">16 - ICT</option>
+	<option style="width:400px ; font-size:50px" value="18">17 - IOT</option>
+	<option style="width:400px ; font-size:50px" value="20">18 - IMES</option>
+	<option style="width:400px ; font-size:50px" value="21">19 - ILFSIO</option>
+	<option style="width:400px ; font-size:50px" value="22">20 - GAISE</option>
+	<option style="width:400px ; font-size:50px" value="23">21 - IOA</option>
+	<option style="width:400px ; font-size:50px" value="24">22 - NSECCM</option>
+	<option style="width:400px ; font-size:50px" value="25">23 - IDS</option>
+
+</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%">
+                            Degree :
+                        </td>
+                        <td style="width:400px ; font-size:50px">
+                            <select name="ddlDegree" onchange="javascript:setTimeout('__doPostBack(\'ddlDegree\',\'\')', 0)" id="ddlDegree" tabindex="2" title="Select Degree">
+	<option selected="selected" value="0">Select...</option>
+
+</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%">
+                            Semester :
+                        </td>
+                        <td style="width: 70%">
+                            <select name="ddlSem" onchange="javascript:setTimeout('__doPostBack(\'ddlSem\',\'\')', 0)" id="ddlSem" tabindex="3" title="Select Semester">
+
+</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%">
+                            Exam :
+                        </td>
+                        <td style="width: 70%">
+                            <select name="ddlScheduleExam" id="ddlScheduleExam" tabindex="4" title="Select Exam">
+
+</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%">
+                            Enrollment No :
+                        </td>
+                        <td style="width: 70%">
+                            <input name="txtEnrNo" type="text" id="txtEnrNo" tabindex="5" title="Enter Enrollment No" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 100%; border: none 0px; float: right" colspan="2">
+                            <span id="lblMsg" class="lbl" style="color:Red;font-weight:bold;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%; border: none 0px;" colspan="2">
+                            
+							
+<style>
+	.button {
+	
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 80px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {background-color: #990033; width: 48.7%}
+.button2 {background-color: #F0A30A; width: 48.7%}
+
+ padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+</style>
+
+<br><br><br>
+							
+							<input type="submit" class="button button1" name="btnSearch" value="Show Marksheet" id="btnSearch" tabindex="6" title="Click To View Result" />
+                            <input type="submit" class="button button2"name="btnRecheckReass" value="Re-checking/Re-evaluation" id="btnRecheckReass" tabindex="6" title="Click To Fill Recheck/Reassessment Form" style="float: right" />
+                        </td>
+                    </tr>
+                </table>
+            
+    </div>
+    
+
+	
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('ddlDegree');//]]>
+</script>
+</form>
+</body>
+
+
+<body>
+
+
+
+</body>
+
+<div align="center">
+ <hr> <img src="AJ_SAVJ.png"> <hr> <br>
+<i><h1><marquee>Developed By :</marquee>  Jay A. Sedani & Atharva U. Jha </h1></i>	
+</div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+
+		</body>
+</html>
